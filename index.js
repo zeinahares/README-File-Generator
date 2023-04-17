@@ -61,7 +61,7 @@ const questions = [
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, markdownMaker.generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
+      err ? console.log(err) : console.log('Successfully created your new README!')
     );
 }
 
